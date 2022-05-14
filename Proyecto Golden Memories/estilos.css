@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration:none ;
+    color: brown;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+nav{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #1046BC;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
