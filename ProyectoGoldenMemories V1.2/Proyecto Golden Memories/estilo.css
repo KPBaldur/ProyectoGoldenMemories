@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    
+}
+
+a{
+    text-decoration:none ;
+    color: brown;
+    padding-right: 20px;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: gold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+
+
+}
+
+nav{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{color: #1046BC;}
+
+
+.Cuerpo{
+    background-color: brown;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.ImgPrincipal{
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+
+article{
+   
+}
+
+.About{
+    background-color: aliceblue;
+    align-content: space-between;
+
+}
+
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+}
